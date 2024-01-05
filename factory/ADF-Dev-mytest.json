@@ -1,0 +1,9 @@
+{
+	"name": "ADF-Dev-mytest",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fa218245-66d7-4559-bb62-c49c433fcd84",
+		"tenantId": "3bac3478-891e-4c7c-b683-f3b51066f333"
+	}
+}
