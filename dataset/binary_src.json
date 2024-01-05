@@ -1,0 +1,19 @@
+{
+	"name": "binary_src",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_stg",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "cust_details.csv",
+				"folderPath": "Platinum",
+				"container": "cont-data"
+			}
+		}
+	}
+}
