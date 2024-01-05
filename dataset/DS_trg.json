@@ -1,0 +1,22 @@
+{
+	"name": "DS_trg",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_stg",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"ds_file_name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "cont-dest"
+			}
+		}
+	}
+}
