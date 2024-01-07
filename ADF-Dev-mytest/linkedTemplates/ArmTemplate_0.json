@@ -76,6 +76,15 @@
 						"typeProperties": {
 							"waitTimeInSeconds": 100
 						}
+					},
+					{
+						"name": "Wait2",
+						"type": "Wait",
+						"dependsOn": [],
+						"userProperties": [],
+						"typeProperties": {
+							"waitTimeInSeconds": 1
+						}
 					}
 				],
 				"policy": {
