@@ -68,6 +68,7 @@ jobs:
           enable-AzPSSession: true 
 
       - name: data-factory-deploy
+        if: ${{ github.event.inputs.environment == 'production' }}
         uses: Azure/data-factory-deploy-action@v1.2.0
         with:
           resourceGroupName: RG-Sai # (6) your target ADF resource group name
